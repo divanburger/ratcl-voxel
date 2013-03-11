@@ -1,0 +1,10 @@
+deps/*
+objs/*
+
+gmon.out
+
+RatCL
+camera.txt
+
+RatCL.sublime-project
+RatCL.sublime-workspace

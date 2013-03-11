@@ -1,0 +1,1107 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gras",
+				"grassTexture"
+			],
+			[
+				"grass",
+				"grassTex"
+			],
+			[
+				"grassT",
+				"grassTextureMemory	cl_mem"
+			],
+			[
+				"stck",
+				"stck_offset"
+			],
+			[
+				"cama",
+				"cameraViewMatrix"
+			],
+			[
+				"voxels",
+				"voxelsDirty	bool"
+			],
+			[
+				"uint",
+				"uint8_t	typedef"
+			],
+			[
+				"ptr",
+				"ptrTable	uint32_t *"
+			],
+			[
+				"si",
+				"sign	float"
+			],
+			[
+				"inter",
+				"intersectShadowOctree(Ray ray, float tmax) const	bool"
+			],
+			[
+				"c",
+				"children	uint16_t"
+			],
+			[
+				"Vec",
+				"Vector2f	struct"
+			],
+			[
+				"t",
+				"top()	reference"
+			],
+			[
+				"clCreateC",
+				"clCreateContext(const cl_context_properties *, cl_uint, const cl_device_id *, void (*)(const char *, const void *, size_t, void *), void *, cl_int *)	cl_context"
+			],
+			[
+				"light",
+				"lightDirection	Vector3"
+			],
+			[
+				"Vect",
+				"Vector3f	struct"
+			],
+			[
+				"ite",
+				"iterations"
+			],
+			[
+				"kernel",
+				"kernelType"
+			],
+			[
+				"ambient",
+				"ambientColour"
+			],
+			[
+				"curN",
+				"curNormalDepth"
+			],
+			[
+				"kerne",
+				"kernelType"
+			],
+			[
+				"clRela",
+				"clReleaseEvent(cl_event)	cl_int"
+			],
+			[
+				"last",
+				"lastTimePhysics	long"
+			],
+			[
+				"sn",
+				"sunReflected	unsigned char"
+			],
+			[
+				"Chunk",
+				"ChunkLight	struct"
+			],
+			[
+				"set",
+				"setDirty()	void"
+			],
+			[
+				"ne",
+				"neighbourChunk	Chunk*"
+			],
+			[
+				"isVali",
+				"isValidChunkCoord(ivec3 pos) const	bool"
+			],
+			[
+				"s",
+				"size() const	size_type"
+			],
+			[
+				"GL_RED",
+				"GL_RED_INTEGER	macro"
+			],
+			[
+				"entry",
+				"entry	ChunkEntry*"
+			],
+			[
+				"tex",
+				"textures	orbis::renderer::Texture **"
+			],
+			[
+				"lo",
+				"load(ivec3 size, int components, float *data)	void"
+			],
+			[
+				"Chun",
+				"ChunkLight	class"
+			],
+			[
+				"lowp_vec",
+				"lowp_vec3	typedef"
+			],
+			[
+				"getC",
+				"getChunk(ivec3 pos) const	soo::world::Chunk *"
+			],
+			[
+				"ChunkLig",
+				"ChunkLight.h"
+			],
+			[
+				"ChunkLi",
+				"ChunkLight.h"
+			],
+			[
+				"view",
+				"viewDistance	float"
+			],
+			[
+				"mode",
+				"modelMatrix	glm::mat4"
+			],
+			[
+				"load",
+				"loadArray(string filename, int layers)	void"
+			],
+			[
+				"GL_TEXTURE_2D",
+				"GL_TEXTURE_2D_ARRAY	macro"
+			],
+			[
+				"glBuildM",
+				"gluBuild2DMipmaps(GLenum target, GLint internalFormat, GLsizei width, GLsizei height, GLenum format, GLenum type, const void *data)	GLint"
+			],
+			[
+				"GL_NEARE",
+				"GL_NEAREST_MIPMAP_NEAREST	macro"
+			],
+			[
+				"GL_LINEA",
+				"GL_LINEAR_MIPMAP_LINEAR	macro"
+			],
+			[
+				"GLLINEA",
+				"GL_LINEAR_MIPMAP_LINEAR	macro"
+			],
+			[
+				"cHUN",
+				"Chunk	class"
+			],
+			[
+				"get",
+				"getChunk(ivec3 pos) const	soo::world::Chunk *"
+			],
+			[
+				"p",
+				"push(value_type &&__x)	void"
+			],
+			[
+				"chun",
+				"chunkRange	int"
+			],
+			[
+				"GL_TEXTURE_WRAP_",
+				"GL_TEXTURE_WRAP_R	macro"
+			],
+			[
+				"is",
+				"isEmpty(int x, int y, int z) const	bool"
+			],
+			[
+				"subm",
+				"subMeshes	std::vector<SubMesh *>"
+			],
+			[
+				"chunk",
+				"chunkProvider	soo::world::ChunkProvider *"
+			],
+			[
+				"E",
+				"error(string tag, string msg)	void"
+			],
+			[
+				"th",
+				"this_thread	namespace"
+			],
+			[
+				"gener",
+				"chunkGeneratorThread	std::thread"
+			],
+			[
+				"memory",
+				"memory_order_acquire	std::memory_order"
+			],
+			[
+				"reques",
+				"request	ivec3"
+			],
+			[
+				"fetc",
+				"fetch_or(__int_type __i)	__int_type"
+			],
+			[
+				"atomic_uint",
+				"atomic_uint_least8_t	typedef"
+			],
+			[
+				"numIn",
+				"numBufferIndices	int"
+			],
+			[
+				"glBindTexture",
+				"glBindTexture(GLenum target, GLuint texture)	void"
+			],
+			[
+				"GL_TEXTURE",
+				"GL_TEXTURE0	macro"
+			],
+			[
+				"GL_RGBA16",
+				"GL_RGBA16F	macro"
+			],
+			[
+				"FREE_IMAGE_C",
+				"FREE_IMAGE_COLOR_TYPE	enum"
+			],
+			[
+				"file",
+				"fileFormat	FREE_IMAGE_FORMAT"
+			],
+			[
+				"GL_CLAMP_T",
+				"GL_CLAMP_TO_EDGE	macro"
+			],
+			[
+				"GL_UNSIG",
+				"GL_UNSIGNED_BYTE	macro"
+			],
+			[
+				"pi",
+				"pixels	void *"
+			],
+			[
+				"da",
+				"data/"
+			],
+			[
+				"de",
+				"destroy()	void"
+			],
+			[
+				"Chu",
+				"ChunkEntry	struct"
+			],
+			[
+				"IND",
+				"indices	Indices"
+			],
+			[
+				"glDrawElements",
+				"glDrawElements(GLenum mode, GLsizei count, GLenum type, const GLvoid *indices)	void"
+			],
+			[
+				"requ",
+				"requestChunk(int x, int y, int z)	void"
+			],
+			[
+				"pos",
+				"possibles	vector<Entry>"
+			],
+			[
+				"reque",
+				"requests	std::list<ivec3>"
+			],
+			[
+				"shard",
+				"shardModel	soo::renderer::ShardModel *"
+			],
+			[
+				"player",
+				"playerChunk	ivec3"
+			],
+			[
+				"M_PI",
+				"M_PI_2	macro"
+			],
+			[
+				"C_S",
+				"C_SIZE	const unsigned int"
+			],
+			[
+				"glEnabl",
+				"glEnable(GLenum cap)	void"
+			],
+			[
+				"change",
+				"changeYaw(float amount)	void"
+			],
+			[
+				"INF",
+				"information(string tag, string msg)	void"
+			],
+			[
+				"Ma",
+				"Material	class"
+			],
+			[
+				"shardM",
+				"shardModel	soo::renderer::ShardModel *"
+			],
+			[
+				"Materi",
+				"MaterialMap	class"
+			],
+			[
+				"Mater",
+				"MaterialMap	class"
+			],
+			[
+				"Shard",
+				"ShardModel	class"
+			],
+			[
+				"Mate",
+				"MaterialMap.h"
+			],
+			[
+				"reflect",
+				"reflectionColour"
+			],
+			[
+				"reflec",
+				"reflectionBuffer"
+			],
+			[
+				"reflectio",
+				"reflectionBuffer"
+			],
+			[
+				"ref",
+				"reflectionBuffer"
+			],
+			[
+				"san",
+				"sandTexture"
+			],
+			[
+				"noiseSl",
+				"noiseSlow"
+			],
+			[
+				"noiseS",
+				"noiseSlowish"
+			],
+			[
+				"vert",
+				"vertices"
+			],
+			[
+				"Vertex",
+				"VertexBuffer"
+			],
+			[
+				"instan",
+				"instances"
+			],
+			[
+				"state",
+				"stateStack"
+			],
+			[
+				"bum",
+				"bumpTexture"
+			],
+			[
+				"Shader",
+				"ShaderProgram"
+			],
+			[
+				"eva",
+				"evaluatorA"
+			],
+			[
+				"crossover",
+				"crossoverOperator"
+			],
+			[
+				"me",
+				"measurementHeadings"
+			],
+			[
+				"crosso",
+				"crossoverRate"
+			],
+			[
+				"mutat",
+				"mutationOperator"
+			],
+			[
+				"selec",
+				"selectionArray"
+			],
+			[
+				"eli",
+				"elitismPercentage"
+			],
+			[
+				"Muta",
+				"mutation"
+			],
+			[
+				"mut",
+				"mutationOperator"
+			],
+			[
+				"cross",
+				"crossoverOperator"
+			],
+			[
+				"opp",
+				"opponentSelector"
+			],
+			[
+				"op",
+				"opponentPop"
+			],
+			[
+				"meas",
+				"measurementsFile"
+			],
+			[
+				"Popu",
+				"PopulationPtr"
+			],
+			[
+				"population",
+				"populationSize"
+			],
+			[
+				"cro",
+				"crossover"
+			],
+			[
+				"cros",
+				"crossoverOperator"
+			],
+			[
+				"Cross",
+				"Crossover"
+			],
+			[
+				"Crossover",
+				"BinomialCrossover"
+			],
+			[
+				"new",
+				"newPopulation"
+			],
+			[
+				"Pop",
+				"Population"
+			],
+			[
+				"verte",
+				"vertexBuffer"
+			],
+			[
+				"vertex",
+				"VertexBuffer"
+			],
+			[
+				"Ver",
+				"VertexBuffer"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/home/dburger/Dropbox/quickCheck/test.txt",
+			"settings":
+			{
+				"buffer_size": 984,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/dburger/Dropbox/quickCheck/check.py",
+			"settings":
+			{
+				"buffer_size": 1441,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 180.0,
+		"selected_items":
+		[
+			[
+				"conver ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"convert ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"brows",
+				"Preferences: Browse Packages"
+			],
+			[
+				"git p",
+				"Git: Push"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git",
+				"Git: Blame"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: If Condition"
+			],
+			[
+				"scope",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"togle sco",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"show",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"toggle sco",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"show sco",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"togglet sc",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"show sc",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"toggle scope",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"show scope",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"toggle inst",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"instant",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"sho",
+				"Scope Hunter: Toggle Instant Scoper"
+			],
+			[
+				"show ",
+				"Scope Hunter: Show Scope Under Cursor(s)"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 146.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/dburger/Dropbox/RatCL/src/Raytracer.h",
+		"/home/dburger/Dropbox/RatCL/src/main.cpp",
+		"/home/dburger/Dropbox/RatCL/src/Vector.h",
+		"/home/dburger/Dropbox/RatCL/src/random.cl",
+		"/home/dburger/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+		"/home/dburger/Dropbox/RatCL/Makefile",
+		"/home/dburger/Dropbox/RatCL/src/Scene.h",
+		"/media/dburger/Ubuntu precise 20121019-01:27/isolinux/isolinux.cfg",
+		"/media/dburger/Ubuntu precise 20121019-01:27/md5sum.txt",
+		"/home/dburger/Dropbox/RatCL/src/postprocess.cl",
+		"/home/dburger/Dropbox/RatCL/src/util.cl",
+		"/home/dburger/Dropbox/RatCL/src/Tonemapping.h",
+		"/home/dburger/Dropbox/RatCL/src/Entities.h",
+		"/home/dburger/Dropbox/RatCL/src/VoxelGrid.h",
+		"/home/dburger/Dropbox/RatCL/src/VoxelGrid.cpp",
+		"/home/dburger/Dropbox/RatCL/src/Ray.h",
+		"/home/dburger/Dropbox/RatCL/src/Math.h",
+		"/home/dburger/Dropbox/RatCL/src/Noise.h",
+		"/home/dburger/Dropbox/RatCL/src/intersection.cl",
+		"/home/dburger/Dropbox/RatCL/src/raytracer_fast.cl",
+		"/home/dburger/Dropbox/RatCL/src/raytracer_normal.cl",
+		"/home/dburger/Dropbox/RatCL/src/Camera.h",
+		"/home/dburger/Dropbox/RatCL/src/Camera.cpp",
+		"/home/dburger/Dropbox/RatCL/src/AABB.h",
+		"/home/dburger/Dropbox/RatCL/src/AABB.cpp",
+		"/home/dburger/Dropbox/RatCL/src/Noise.cpp",
+		"/home/dburger/Dropbox/RatCL/src/Voxels.h",
+		"/home/dburger/Dropbox/University/Honours Project/src/Camera.h",
+		"/home/dburger/Dropbox/University/Honours Project/src/Camera.cpp",
+		"/home/dburger/Dropbox/RatCL/RatCL.sublime-project",
+		"/home/dburger/Downloads/efficient-sparse-voxel-octrees/src/octree/cuda/Raycast.inl",
+		"/home/dburger/Dropbox/RatCL/src/VoxelOctree.cpp",
+		"/home/dburger/Dropbox/RatCL/src/VoxelOctree.h",
+		"/home/dburger/Dropbox/Rat/src/VoxelOctree.cpp",
+		"/home/dburger/Dropbox/Rat/src/VoxelOctree.h",
+		"/home/dburger/.local/share/applications/sublime.desktop",
+		"/home/dburger/Dropbox/RatCL/src/raytracer.cl",
+		"/home/dburger/.config/sublime-text-2/Packages/OpenCL/OpenCL.tmLanguage",
+		"/home/dburger/Dropbox/RatCL/references.txt",
+		"/home/dburger/Source/SOO/SOO.sublime-project",
+		"/home/dburger/Source/SOO/Makefile",
+		"/home/dburger/Source/SOO/data/models/monkey.obj",
+		"/home/dburger/Source/SOO/src/orbis/core/BasicLexer.h",
+		"/home/dburger/Source/SOO/src/orbis/core/BasicLexer.cpp",
+		"/home/dburger/Source/SOO/src/orbis/core/BasicParser.cpp",
+		"/home/dburger/Source/SOO/src/orbis/renderer/loaders/OBJLoader.cpp",
+		"/home/dburger/Source/SOO/data/models/_monkey.obj",
+		"/home/dburger/skySphere.obj",
+		"/home/dburger/Source/SOO/data/shaders/terrain.fs",
+		"/home/dburger/Source/SOO/src/soo/world/ChunkLight.cpp",
+		"/home/dburger/Source/SOO/src/soo/renderer/ChunkMesh.cpp",
+		"/home/dburger/Source/SOO/src/orbis/renderer/Texture3D.h",
+		"/home/dburger/Source/SOO/src/orbis/renderer/Texture3D.cpp",
+		"/home/dburger/Source/SOO/src/soo/renderer/ShardModel.cpp",
+		"/home/dburger/Source/SOO/src/soo/world/Shard.cpp",
+		"/home/dburger/Source/SOO/src/orbis/core/Profiler.h",
+		"/home/dburger/Source/SOO/src/orbis/core/Profiler.cpp",
+		"/home/dburger/Source/SOO/src/orbis/Application.cpp",
+		"/home/dburger/Source/SOO/src/orbis/Application.h",
+		"/home/dburger/Source/SOO/profiler.log",
+		"/home/dburger/Source/SOO/src/soo/world/Chunk.h",
+		"/home/dburger/Source/SOO/src/soo/world/ChunkProvider.cpp",
+		"/home/dburger/Source/SOO/src/soo/world/ChunkLight.h",
+		"/home/dburger/Source/SOO/src/orbis/core/Math.h",
+		"/home/dburger/Source/SOO/src/soo/renderer/ShardModel.h",
+		"/home/dburger/Source/SOO/src/soo/world/Cell.h",
+		"/home/dburger/Source/SOO/src/orbis/renderer/Texture2D.cpp",
+		"/home/dburger/Source/SOO/src/soo/world/Shard.h",
+		"/home/dburger/Source/SOO/src/orbis/core/SingleProducerConsumerBoundedQueue.h",
+		"/home/dburger/Source/SOO/src/soo/world/ChunkProvider.h",
+		"/home/dburger/Source/SOO/src/soo/world/Area.h",
+		"/home/dburger/Source/SOO/src/soo/world/Area.cpp",
+		"/home/dburger/Source/SOO/src/soo/ShardsOfOrbis.h",
+		"/home/dburger/Source/SOO/src/soo/ShardsOfOrbis.cpp",
+		"/home/dburger/Source/SOO/shard.ppm",
+		"/home/dburger/Source/SOO/src/orbis/core/SimplexNoise.cpp",
+		"/home/dburger/Source/SOO/src/orbis/renderer/SubMesh.h",
+		"/home/dburger/Source/SOO/src/orbis/renderer/SubMesh.cpp",
+		"/home/dburger/Source/SOO/src/soo/renderer/ChunkMesh.h",
+		"/home/dburger/Source/SOO/src/orbis/core/SimplexNoise.h",
+		"/home/dburger/Source/SOO/src/orbis/renderer/Renderer.cpp",
+		"/home/dburger/Source/SOO/src/orbis/renderer/Texture.cpp",
+		"/home/dburger/Source/SOO/src/orbis/renderer/Texture2D.h",
+		"/home/dburger/Source/SOO/data/shaders/textured.fs",
+		"/home/dburger/Source/SOO/src/orbis/renderer/Texture.h",
+		"/home/dburger/Source/SOO/data/shaders/terrain.vs",
+		"/home/dburger/Source/SOO/data/shaders/fog.fs",
+		"/home/dburger/Source/SOO/src/soo/renderer/MaterialMap.h",
+		"/home/dburger/Source/SOO/src/soo/renderer/MaterialMap.cpp",
+		"/home/dburger/Source/SOO/data/shaders/textured.vs",
+		"/home/dburger/Source/SOO/data/shaders/basic.vs",
+		"/home/dburger/Source/SOO/data/shaders/basic.fs",
+		"/home/dburger/Source/SOO/src/orbis/renderer/FPSCamera.cpp",
+		"/home/dburger/Source/SOO/src/orbis/renderer/Renderer.h",
+		"/home/dburger/Source/SOO/src/orbis/renderer/Mesh.h",
+		"/home/dburger/Source/SOO/src/orbis/renderer/Mesh.cpp",
+		"/home/dburger/Source/SOO/src/orbis/core/Window.cpp",
+		"/home/dburger/Source/SOO/src/orbis/renderer/ShaderProgram.cpp",
+		"/home/dburger/Source/SOO/src/orbis/renderer/ShaderProgram.h",
+		"/home/dburger/Source/SOO/src/soo/world/Chunk.cpp",
+		"/home/dburger/Source/SOO/src/orbis/renderer/Material.h",
+		"/home/dburger/Source/SOO/src/orbis/renderer/Material.cpp",
+		"/home/dburger/Source/SOO/data/shaders/fog.shader",
+		"/home/dburger/main.cpp",
+		"/home/dburger/Source/SOO/src/orbis/renderer/Camera.cpp",
+		"/home/dburger/Source/SOO/src/soo/world/Column.h",
+		"/home/dburger/Source/SOO/src/orbis/core/Noise.cpp",
+		"/home/dburger/Source/SOO/src/orbis/core/Noise.h",
+		"/home/dburger/Source/SOO/post-build/Debug-win32.bat",
+		"/home/dburger/Source/SOO/src/orbis/core/sugar.h",
+		"/home/dburger/Source/SOO/src/orbis/renderer/FPSCamera.h",
+		"/home/dburger/Source/SOO/src/orbis/renderer/Camera.h",
+		"/home/dburger/.config/sublime-text-2/Packages/Alignment/Base File.sublime-settings",
+		"/home/dburger/.config/sublime-text-2/Packages/Alignment/Default (Linux).sublime-keymap",
+		"/home/dburger/Source/SOO/src/orbis/core/EventEmitter.h",
+		"/home/dburger/Source/SOO/src/orbis/renderer/Viewport.h",
+		"/home/dburger/Source/SOO/.gitignore",
+		"/home/dburger/Source/SOO/src/soo/world/Column.cpp",
+		"/home/dburger/Source/SOO/src/orbis/core/Window.h",
+		"/home/dburger/Source/SOO/src/orbis/renderer/Model.h",
+		"/home/dburger/Source/SOO/src/orbis/renderer/Model.cpp",
+		"/home/dburger/Source/SOO/src/orbis/renderer/ModelLoader.h",
+		"/home/dburger/Source/SOO/src/orbis/renderer/ModelLoader.cpp",
+		"/home/dburger/Source/SOO/src/orbis/renderer/loaders/OBJLoader.h",
+		"/home/dburger/Source/SOO/src/orbis/renderer/loaders/AC3DLoader.h",
+		"/home/dburger/Source/SOO/src/orbis/renderer/loaders/AC3DLoader.cpp",
+		"/home/dburger/.config/sublime-text-2/Packages/C++/C++.tmLanguage",
+		"/home/dburger/.config/sublime-text-2/Packages/SublimeClang/SublimeClang.sublime-settings"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/home/dburger/Source/SOO",
+			"/home/dburger/Source/SOO/src/soo/world",
+			"/home/dburger/Dropbox/University/Honours/AI/Towers/src/Games",
+			"/home/dburger/Dropbox/University/Honours/AI/Towers/src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"max",
+			"pos",
+			"16",
+			"smoothmix",
+			"Vector3",
+			"Vector4",
+			"Vector3f",
+			"Vector4f",
+			"Vector3",
+			"Vector3f",
+			"Vector3",
+			"Vector3f",
+			"pg",
+			";\n",
+			"Noise(",
+			" Noise",
+			"Noise",
+			"Octaves",
+			"Persistence",
+			"resultTexture",
+			"RaytracerKernel",
+			"traceNoGI",
+			"max(0",
+			".b",
+			"value = ",
+			"Value",
+			"value",
+			"threeQuarter",
+			"LightValue ",
+			"LightValue",
+			" >> 1",
+			"32",
+			"16",
+			"if (value.sun > self.sunReflected - 16)\n								{\n									changed = true;\n									self.sunReflected = value.sun - 16;\n								}",
+			"threeQuarter(",
+			"threeQuarter",
+			"x",
+			" >> 1",
+			" * 0.5",
+			"ChunkLight",
+			"CL_SIZE",
+			"vertices",
+			"p + ",
+			">\n",
+			"_INTEGER",
+			"Texture(",
+			"Texture::",
+			"Texture",
+			"texture",
+			"Texture",
+			"GL_TEXTURE_2D",
+			"glGetUniformLocation",
+			"bool",
+			"glGet",
+			"glEnable(GL_",
+			"glDisable(GL_",
+			"glDisable(GL_TEXTURE_2D);",
+			"glEnable(GL_TEXTURE_2D_ARRAY);",
+			"cell.type",
+			"Type",
+			"type",
+			"vec2",
+			"|| ",
+			"getCloseCell",
+			"Chunk",
+			"chunk",
+			"x",
+			"orbis::renderer::",
+			"1[0-9][0-9]",
+			"2[0-9][0-9]",
+			"d",
+			"sz",
+			"sy",
+			"sx",
+			"texture",
+			"Texture",
+			"Texture2D",
+			"Location",
+			"location",
+			"!!!",
+			":\n",
+			"colour",
+			"by",
+			"bx",
+			"x22",
+			"x12",
+			"x21",
+			"x11",
+			"}",
+			"vec3",
+			"smoothmix",
+			"replaceDistance",
+			"x",
+			"pos",
+			"bool",
+			"unsigned",
+			"string",
+			"\"\n",
+			";\n",
+			");\n",
+			"float",
+			"changeDataContextRoot",
+			"changeContextRoot",
+			"new NeuralNetwork(",
+			"NeuralNetwork",
+			"	\n",
+			"random",
+			"debug",
+			"CourtGameNode",
+			"Node",
+			"64 * 8",
+			"cout",
+			"*(",
+			";\n",
+			"x",
+			"];\n",
+			"node.",
+			"class-body",
+			"{",
+			"	}"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"smoothstep",
+			"vec3",
+			"vec4",
+			"vec3",
+			"vec4",
+			"vec3",
+			"MatchesNode",
+			"CourtGameNode",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/home/dburger/Dropbox/quickCheck/test.txt",
+					"settings":
+					{
+						"buffer_size": 984,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								563,
+								563
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/dburger/Dropbox/quickCheck/check.py",
+					"settings":
+					{
+						"buffer_size": 1441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								854,
+								854
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.clang":
+	{
+		"height": 121.0
+	},
+	"output.exec":
+	{
+		"height": 133.0
+	},
+	"output.git":
+	{
+		"height": 330.0
+	},
+	"output.sftp":
+	{
+		"height": 118.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true
+}
