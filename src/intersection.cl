@@ -3,12 +3,6 @@ constant const int WATER = 4;
 constant const int WOOD = 5;
 constant const int LEAVES = 6;
 
-constant const float3 normals[3] = {
-	(float3)(1.0f, 0.0f, 0.0f),
-	(float3)(0.0f, 1.0f, 0.0f),
-	(float3)(0.0f, 0.0f, 1.0f)
-};
-
 typedef struct {
 	bool hit;
 	int side;
@@ -90,7 +84,7 @@ Result intersectOctree(global const uchar *voxels, const int3 size, global const
 				result.hit = true;
 				result.t = tmin;
 				result.side = side;
-				result.normal = normals[side] * sgn;
+				result.normal = (float3)(side == 0 ? 1.0f : 0.0f, side == 1 ? 1.0f : 0.0f, side == 2 ? 1.0f : 0.0f) * sgn;
 				result.pos = ray.pos + ray.dir * tmin + result.normal * 0.0001f;
 				result.pos.x = min(max((int)result.pos.x, 0), size.x);
 				result.pos.y = min(max((int)result.pos.y, 0), size.y);
@@ -340,12 +334,6 @@ Result intersectVoxels(global const uchar *voxels, const int3 size, const Ray ra
 	int3 p = clamp(convert_int(ray.pos), 0, size);
 	float t = 0.0f;
 
-	const float3 normals[3] = {
-		(float3)(1.0f, 0.0f, 0.0f),
-		(float3)(0.0f, 1.0f, 0.0f),
-		(float3)(0.0f, 0.0f, 1.0f)
-	};
-
 	const float3 dsign = (float3)(sign(ray.dir.x), sign(ray.dir.y), sign(ray.dir.z));
 	const float3 next = (float3)(ray.dir.x >= 0 ? p.x + 1 : p.x, ray.dir.y >= 0 ? p.y + 1 : p.y, ray.dir.z >= 0 ? p.z + 1 : p.z);
 
@@ -364,7 +352,7 @@ Result intersectVoxels(global const uchar *voxels, const int3 size, const Ray ra
 			result.pos = convert_float3(p);
 			result.hit = true;
 			result.side = side;
-			result.normal = normals[side] * dsign;
+			result.normal = (float3)(side == 0 ? 1.0f : 0.0f, side == 1 ? 1.0f : 0.0f, side == 2 ? 1.0f : 0.0f) * dsign;
 			return result;
 		}
 

@@ -150,7 +150,7 @@ float3 tracePath(const Ray startRay, uint2* rngState, const float3 sunDirection,
 		float3 colour = factor * (fogColour + SUN_COLOUR * 2.5f * pow(clamp(-dot(ray.dir, sunDirection), 0.0f, 1.0f) + 0.014f, 500.0f));
 
 		if (materialType == WATER) 
-			final += colour * (float4)(exp(-1.0f * result.t * (float3)(1.0f, 0.7f, 0.4f) * 0.8f), 1.0f);
+			final += colour * (float3)(exp(-1.0f * result.t * (float3)(1.0f, 0.7f, 0.4f) * 0.8f));
 		else		
 			final += colour;
 
@@ -241,7 +241,7 @@ float3 traceOne(const Ray startRay, uint2* rngState, const float3 sunDirection,
 		float3 colour = fogColour + SUN_COLOUR * 2.5f * pow(clamp(-dot(ray.dir, sunDirection), 0.0f, 1.0f) + 0.014f, 500.0f);
 		
 		if (materialType == WATER) 
-			return colour * (float4)(exp(-1.0f * result.t * (float3)(1.0f, 0.7f, 0.4f) * 0.8f), 1.0f);
+			return colour * (float3)(exp(-1.0f * result.t * (float3)(1.0f, 0.7f, 0.4f) * 0.8f));
 		else		
 			return colour;
 	}
@@ -261,6 +261,7 @@ float3 traceNoGI(const Ray ray, uint2* rngState, const float3 sunDirection,
 	const float3 fogColour = skyColour + sunFillColour + ambientColour;
 
 	const Result result = intersectOctree(voxels, size, nodes, ptrTable, ray, maxt);
+	//const Result result = intersectVoxels(voxels, size, ray, maxt, AIR);
 
     float3 colour = fogColour;
 

@@ -147,7 +147,7 @@ float3 tracePath(const Ray startRay, uint2* rngState, const float3 sunDirection,
 		if (showSun) sky += sunColour * 10.0f * pow(clamp(-dot(ray.dir, sunDirection), 0.0f, 1.0f) + 0.014f, 500.0f);
 
 		if (materialType == WATER)
-			final += factor * sky * (float4)(exp(-1.0f * result.t * (float3)(1.0f, 0.7f, 0.4f)), 1.0f);
+			final += factor * sky * (float3)(exp(-1.0f * result.t * (float3)(1.0f, 0.7f, 0.4f)));
 		else
 			final += factor * sky;
 
@@ -166,6 +166,7 @@ float3 trace(const Ray ray, uint2* rngState, const float3 sunDirection,
 	const float3 sunColour = (float3)(0.63f, 0.55f, 0.5f);
 	const float3 ambientColour = (float3)(0.10f, 0.16f, 0.20f);
 
+	//const Result result = intersectVoxels(voxels, size, ray, maxt, AIR);
 	const Result result = intersectOctree(voxels, size, nodes, ptrTable, ray, maxt);
 
 	const float3 skyColour = skyBaseColour * clamp(-ray.dir.y, 0.1f, 1.0f);

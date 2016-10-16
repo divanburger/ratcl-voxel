@@ -45,15 +45,20 @@ bool Kernel::build()
 	if (ret != CL_SUCCESS)
 		cerr << "Build failed: " << filename << endl;
 	else
-		cout << "Build success: " << filename << endl; 
+		cout << "Build success: " << filename << endl;
 
 	size_t retValSize;
 	ret = clGetProgramBuildInfo(program, device, CL_PROGRAM_BUILD_LOG, 0, NULL, &retValSize);
+    if (ret != CL_SUCCESS)
+    {
+        cerr << "Error getting build log: " << filename << endl;
+        return false;
+    }
 
 	char *buildLog = (char *)malloc(retValSize + 1);
 	ret = clGetProgramBuildInfo(program, device, CL_PROGRAM_BUILD_LOG, retValSize, buildLog, NULL);
 
-	if (strlen(buildLog) == 0) printf("Build Log:\n\n%s", buildLog);
+    if (retValSize > 2) printf("Build Log:\n\n%s", buildLog);
 
 	if (ret == CL_SUCCESS)
 	{

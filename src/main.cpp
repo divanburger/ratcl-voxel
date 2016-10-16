@@ -12,8 +12,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define CL_USE_DEPRECATED_OPENCL_1_1_APIS
-
+#define CL_USE_DEPRECATED_OPENCL_1_2_APIS
 #include <CL/cl.h>
 #include <CL/cl_gl.h>
 
@@ -280,7 +279,7 @@ int main(void)
 	printCLErrorCode("createContext", ret);
 
 	// Create a command queue
-	cl_command_queue command_queue = clCreateCommandQueue(context, device, CL_QUEUE_PROFILING_ENABLE, &ret);
+	cl_command_queue command_queue = clCreateCommandQueue(context, device, CL_QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE, &ret);
 
 	// Create texture
 	outputTexture = createTexture();
@@ -474,11 +473,6 @@ int main(void)
 					if (event.key.keysym.sym == SDLK_ESCAPE)
 					{
 						running = false;
-					}
-					else if (event.key.keysym.sym == SDLK_p)
-					{
-						postprocessEnabled = !postprocessEnabled;
-						forceMixOff = 1;
 					}
 					else if (event.key.keysym.sym == SDLK_t)
 					{
@@ -767,7 +761,7 @@ int main(void)
 				forceMixOff--;
 				succesiveFrames = 1;
 			}
-			else if (succesiveFrames < 64)
+			else if (succesiveFrames < 128)
 				succesiveFrames++;
 
 			float mixFactor = 1.0f - 1.0f / succesiveFrames;

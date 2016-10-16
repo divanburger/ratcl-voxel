@@ -38,7 +38,7 @@ float3 tracePath(const Ray startRay, uint2* rngState, const float3 sunDirection,
 
 		if (!result.hit || fog < 0.01)
 		{
-			if (materialType == WATER) factor *= (float4)(exp(-1.0f * result.t * (float3)(1.0f, 0.7f, 0.4f)), 1.0f);
+			if (materialType == WATER) factor *= (float3)(exp(-1.0f * result.t * (float3)(1.0f, 0.7f, 0.4f)));
 
 			final += factor * fogColour;
 

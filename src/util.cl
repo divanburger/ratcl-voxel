@@ -15,18 +15,24 @@ float3 reflect(float3 normal, float3 in)
 
 float3 getCellColourSimple(int cell)
 {
-	const float3 colours[8] = {
-		(float3)(0.0f, 0.0f, 0.0f),
-		(float3)(0.65f, 0.9f, 0.2f),
-		(float3)(0.4f, 0.2f, 0.05f),
-		(float3)(0.4f, 0.4f, 0.4f),
-		(float3)(0.2f, 0.35f, 0.6f),
-		(float3)(0.25f, 0.13f, 0.03f),
-		(float3)(0.4f, 0.8f, 0.05f),
-		(float3)(0.0f, 0.0f, 0.0f)
-	};
+	float3 blockColour;
 
-	return colours[cell] * 0.4f;
+	if (cell == 1)
+		blockColour = (float3)(0.65f, 0.9f, 0.2f);
+	else if (cell == 2)
+		blockColour = (float3)(0.4f, 0.2f, 0.05f);
+	else if (cell == 3)
+		blockColour = (float3)(0.4f, 0.4f, 0.4f);
+	else if (cell == 4)
+		blockColour = (float3)(0.2f, 0.35f, 0.6f);
+	else if (cell == 5)
+		blockColour = (float3)(0.25f, 0.13f, 0.03f);
+	else if (cell == 6)
+		blockColour = (float3)(0.4f, 0.8f, 0.05f);
+	else
+		blockColour = (float3)(0.0f, 0.0f, 0.0f);
+
+	return blockColour * 0.4f;
 }
 
 float3 getCellColour(int cell, float3 p)
@@ -41,11 +47,11 @@ float3 getCellColour(int cell, float3 p)
 		blockColour = (float3)(0.4f, 0.2f, 0.05f) * tl;
 	else if (cell == 3)
 		blockColour = (float3)(0.4f, 0.4f, 0.4f) * tl;
-	else if (cell == WATER)
+	else if (cell == 4)
 		blockColour = (float3)(0.2f, 0.35f, 0.6f) * tl;
-	else if (cell == WOOD)
+	else if (cell == 5)
 		blockColour = (float3)(0.25f, 0.13f, 0.03f) * tl;
-	else if (cell == LEAVES)
+	else if (cell == 6)
 		blockColour = (float3)(0.4f, 0.8f, 0.05f) * tl;
 	else
 		blockColour = (float3)(0.0f, 0.0f, 0.0f);
